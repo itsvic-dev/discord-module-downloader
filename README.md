@@ -22,7 +22,7 @@ Some modules (like `discord-desktop-core`) will have `.asar` files. To unpack th
 
 **Note**: You do need `p7zip` (on Debian and derivatives: `p7zip-full`) for the script to work.
 
-**Windows users**: I don't have a script to automatically extract them (I'm an Arch Linux user), but you can use 7-Zip's "Extract to *" context menu option.
+**Windows users**: After downloading, run `extract.exe` to extract the modules or build the application with [Golang](https://golang.org/dl/) using `go build extract.go` (or run without compiling: `go run extract.go`)
 
 ## Technical stuff
 Here, I'll delve into how the Discord updater checks for host updates and module updates.
